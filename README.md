@@ -21,6 +21,15 @@ Instead, it is designed to answer a simple question:
 
 The panels were modified from existing dashboards to reduce the number of operations required during routine monitoring.
 
+## Notes
+Some infrastructure or monitoring containers may not be relevant for daily SAS Viya operations.
+Use the **Hidden** dashboard variable to define container names that should be excluded from charts and rankings.
+
+Example:
+```text
+pgbackrest|rabbitmq|sas-opendistro|sas-programming-environment|twistlock-defender|fluent-bit
+```
+
 ## Acknowledgements
 
 This dashboard includes panels derived from the following sources.
@@ -56,8 +65,4 @@ The original dashboards were used as references and were modified for daily oper
 
 ## Screenshots
 
-_Add screenshots here._
-
-## License
-
-See the license information in this repository.
+![Viya Operations Dashboard](img/viya-operations-dashboard.png)
