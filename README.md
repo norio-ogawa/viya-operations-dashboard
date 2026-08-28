@@ -1,0 +1,63 @@
+# Viya Operations Dashboard
+
+A collection of Grafana panels for daily operations of SAS Viya.
+
+The goal of this dashboard is to help administrators quickly check the health of a SAS Viya environment with minimal clicks and filter changes.
+
+## Features
+
+- Focused on daily operational checks.
+- Designed to reduce navigation and filtering.
+- Includes commonly used metrics for CPU, memory, storage, Kubernetes, and PostgreSQL.
+- Excludes containers that consistently show high utilization and are less useful for daily health checks (for example, pgBackRest).
+
+## Design Principles
+
+This dashboard is not intended for deep investigation.
+
+Instead, it is designed to answer a simple question:
+
+> Is everything healthy today?
+
+The panels were modified from existing dashboards to reduce the number of operations required during routine monitoring.
+
+## Acknowledgements
+
+This dashboard includes panels derived from the following sources.
+
+### SAS Viya Monitoring for Kubernetes
+
+| Original Dashboard | Original Panel | Notes |
+|-------------------|---------------|-------|
+| Kubernetes Headroom | Resource by Node | Modified |
+| Perf / Node Utilization | CPU Utilzation | Modified |
+| Perf / Node Utilization | CPU Saturation (load per CPU) | Modified |
+| Perf / Node Utilization | Memory Utilization | Modified |
+| Perf / Node Utilization | Memory Saturation (Major Page Faults) | Modified |
+| Perf / Node Utilization | Disk IO Utilization | Modified |
+| Perf / Node Utilization | Net Utilization (Bytes Receive/Transmit) | Modified |
+| Perf / Node Utilization | Disk Capacity Used | Modified |
+| Perf / Node Utilization | Disk IO Saturation | Modified |
+| Perf / Container Utilization | % CPU use / lim | Modified |
+| Perf / Container Utilization | % MEM use / lim | Modified |
+| Kubernetes / Persistent Volumes | Volume Space Usage | Modified |
+| SAS Java Services | JVM Heap | Modified |
+| PostgreSQL | Connections | Modified |
+| PostgreSQL | Replication Lat Time (replica Only) | Modified |
+
+### Grafana Labs
+
+| Original Dashboard | Original Panel | Notes | ID |
+|-------------------|---------------|-------|------|
+| OOM and Restarts | restart | Modified | 16718 |
+| OOM and Restarts | OOM Killed processes pr node delta | Modified | 16718 |
+
+The original dashboards were used as references and were modified for daily operational monitoring.
+
+## Screenshots
+
+_Add screenshots here._
+
+## License
+
+See the license information in this repository.
