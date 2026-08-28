@@ -31,7 +31,7 @@ This dashboard is intended as a starting point for SAS Viya operations.
 
 If you find new metrics that should be monitored in daily operations, feel free to add them and customize the dashboard for your environment.
 
-## Note
+## Notes
 Some containers regularly appear at the top of utilization rankings even when the environment is healthy.
 
 Use the Hidden dashboard variable to exclude such containers from charts and rankings.
