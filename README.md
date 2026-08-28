@@ -50,7 +50,7 @@ This dashboard includes panels derived from the following sources.
 | Original Dashboard | Original Panel | Notes |
 |-------------------|---------------|-------|
 | Kubernetes Headroom | Resource by Node | Modified |
-| Perf / Node Utilization | CPU Utilzation | Modified |
+| Perf / Node Utilization | CPU Utilization | Modified |
 | Perf / Node Utilization | CPU Saturation (load per CPU) | Modified |
 | Perf / Node Utilization | Memory Utilization | Modified |
 | Perf / Node Utilization | Memory Saturation (Major Page Faults) | Modified |
