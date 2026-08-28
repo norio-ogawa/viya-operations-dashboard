@@ -4,6 +4,10 @@ A collection of Grafana panels for daily operations of SAS Viya.
 
 The goal of this dashboard is to help administrators quickly check the health of a SAS Viya environment with minimal clicks and filter changes.
 
+## Import
+
+Import the dashboard JSON file from the Grafana Dashboard Import page.
+
 ## Features
 
 - Focused on daily operational checks.
