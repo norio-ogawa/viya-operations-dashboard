@@ -2,7 +2,7 @@
 
 A collection of Grafana panels for daily operations of SAS Viya.
 
-The goal of this dashboard is to help administrators quickly check the health of a SAS Viya environment with minimal clicks and filter changes.
+The dashboard helps administrators identify abnormal conditions in a few minutes during routine health checks.
 
 ## Import
 
@@ -31,9 +31,10 @@ This dashboard is intended as a starting point for SAS Viya operations.
 
 If you find new metrics that should be monitored in daily operations, feel free to add them and customize the dashboard for your environment.
 
-## Notes
-Some infrastructure or monitoring containers may not be relevant for daily SAS Viya operations.
-Use the **Hidden** dashboard variable to define container names that should be excluded from charts and rankings.
+## Note
+Some containers regularly appear at the top of utilization rankings even when the environment is healthy.
+
+Use the Hidden dashboard variable to exclude such containers from charts and rankings.
 
 Example:
 ```text
@@ -73,7 +74,7 @@ This dashboard includes panels derived from the following sources.
 
 The original dashboards were used as references and were modified for daily operational monitoring.
 
-## Screenshots
+## Screenshot
 
 ![Viya Operations Dashboard](img/viya-operations-dashboard.png)
 
