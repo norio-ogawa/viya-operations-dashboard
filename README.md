@@ -69,7 +69,7 @@ This dashboard includes panels derived from the following sources.
 
 | Original Dashboard | Original Panel | Notes | ID |
 |-------------------|---------------|-------|------|
-| OOM and Restarts | restart | Modified | 16718 |
+| ![OOM and Restarts](https://grafana.com/grafana/dashboards/16718-oom-and-restarts/) | restart | Modified | 16718 |
 | OOM and Restarts | OOM Killed processes pr node delta | Modified | 16718 |
 
 The original dashboards were used as references and were modified for daily operational monitoring.
