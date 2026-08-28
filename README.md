@@ -25,6 +25,12 @@ Instead, it is designed to answer a simple question:
 
 The panels were modified from existing dashboards to reduce the number of operations required during routine monitoring.
 
+## Customization
+
+This dashboard is intended as a starting point for SAS Viya operations.
+
+If you find new metrics that should be monitored in daily operations, feel free to add them and customize the dashboard for your environment.
+
 ## Notes
 Some infrastructure or monitoring containers may not be relevant for daily SAS Viya operations.
 Use the **Hidden** dashboard variable to define container names that should be excluded from charts and rankings.
@@ -70,3 +76,8 @@ The original dashboards were used as references and were modified for daily oper
 ## Screenshots
 
 ![Viya Operations Dashboard](img/viya-operations-dashboard.png)
+
+
+## Change Log
+### Version 1.0 (28AUG2026)
+- Initial version.
