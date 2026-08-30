@@ -82,5 +82,8 @@ The original dashboards were used as references and were modified for daily oper
 
 
 ## Change Log
-### Version 1.0 (28AUG2026)
+### Revision 2 (29AUG2026)
+- Copied and modified panels from the Spring Boot HTTP dashboard.
+
+### Revision 1 (28AUG2026)
 - Initial version.
