@@ -71,12 +71,14 @@ This dashboard includes panels derived from the following sources.
 |-------------------|---------------|-------|------|
 | OOM and Restarts | restart | Modified | 16718 |
 | | OOM Killed processes pr node delta | Modified | 16718 |
+| Spring Boot HTTP | Duration of SUCCESSFUL requests | Modified | 20820 |
+| | Mean response time | Modified | 20820 |
 
 The original dashboards were used as references and were modified for daily operational monitoring.
 
 ## Screenshot
 
-![Viya Operations Dashboard](img/viya-operations-dashboard.png)
+![Viya Operations Dashboard](img/viya-operations-dashboard4.png)
 
 
 ## Change Log
